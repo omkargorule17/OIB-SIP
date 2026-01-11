@@ -221,3 +221,110 @@ footer {
     margin-top: 20px;
     color: #666;
 }
+
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 20px 40px;
+    }
+
+    .hero {
+        padding: 60px 40px;
+        gap: 40px;
+    }
+
+    .hero-image img {
+        width: 340px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-image img {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .products {
+        padding: 50px 20px;
+    }
+
+    .products h2 {
+        font-size: 30px;
+    }
+
+
+    .premium {
+        padding: 70px 20px;
+    }
+
+    .premium h2 {
+        font-size: 34px;
+    }
+
+    .premium-card img {
+        width: 220px;
+    }
+
+    .about {
+        padding: 60px 20px;
+    }
+
+    .contact {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .hero-image img {
+        width: 240px;
+    }
+
+    .product-card img {
+        width: 160px;
+    }
+
+    .premium-card img {
+        width: 190px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
