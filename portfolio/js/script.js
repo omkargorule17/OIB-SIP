@@ -1,4 +1,4 @@
-/* ===== SCROLL REVEAL ANIMATION ===== */
+
 const cards = document.querySelectorAll('.project-card');
 
 const revealOnScroll = () => {
@@ -15,7 +15,6 @@ const revealOnScroll = () => {
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
 
-/* ===== SMOOTH PAGE TRANSITION EFFECT ===== */
 document.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', e => {
         if (link.href.includes(window.location.origin)) {
@@ -29,3 +28,4 @@ document.querySelectorAll('a').forEach(link => {
 });
 
 document.body.style.transition = 'opacity 0.4s ease';
+
