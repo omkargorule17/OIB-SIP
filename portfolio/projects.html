@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Omkar Gorule</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Omkar</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- PROJECTS SECTION -->
+    <section class="glass" id="projects">
+        <h2 data-aos="fade-down">My Projects</h2>
+
+        <!-- Inventory Management System -->
+        <div class="project-card" data-aos="fade-right">
+            <div class="project-info">
+                <h3>Inventory Management System</h3>
+                <p><strong>Tech:</strong> Flask, MySQL, SQLAlchemy</p>
+                <p>
+                    Complete inventory system with authentication, 
+                    product & supplier management, purchase orders, 
+                    dashboard analytics and charts.
+                </p>
+            </div>
+            <img src="assets/inventory.png" alt="Inventory Management">
+        </div>
+
+        <!-- Climate Awareness System -->
+        <div class="project-card row-right" data-aos="fade-left">
+            <div class="project-info">
+                <h3>Climate Awareness System</h3>
+                <p><strong>Tech:</strong> Java (NetBeans)</p>
+                <p>
+                    Desktop-based system for environmental data monitoring,
+                    visualization and alert generation using Java.
+                </p>
+            </div>
+            <img src="assets/climate.png" alt="Climate Awareness">
+        </div>
+
+        <!-- Bus Reservation System -->
+        <div class="project-card" data-aos="fade-right">
+            <div class="project-info">
+                <h3>Bus Reservation System</h3>
+                <p><strong>Tech:</strong> Java (CMD)</p>
+                <p>
+                    Console-based reservation system supporting bus search,
+                    seat booking and ticket generation using file handling.
+                </p>
+            </div>
+            <img src="assets/bus.png" alt="Bus Reservation">
+        </div>
+
+        <!-- Snake Game -->
+        <div class="project-card row-right" data-aos="fade-left">
+            <div class="project-info">
+                <h3>Snake Game</h3>
+                <p><strong>Tech:</strong> Python</p>
+                <p>
+                    Classic snake game implemented using Python graphics
+                    with real-time controls and score tracking.
+                </p>
+            </div>
+            <img src="assets/snake.png" alt="Snake Game">
+        </div>
+
+        <!-- Smart Stick for Blind Person -->
+        <div class="project-card" data-aos="fade-right">
+            <div class="project-info">
+                <h3>Smart Stick for Blind Person</h3>
+                <p>
+                    <strong>Tech:</strong> Arduino Nano, Ultrasonic Sensor,
+                    LDR, Soil Moisture Sensor, Buzzer, Vibration Motor
+                </p>
+                <p>
+                    Assistive hardware project to help visually impaired
+                    individuals navigate safely by detecting obstacles
+                    and hazardous surfaces.
+                </p>
+            </div>
+            <img src="assets/blind.png" alt="Smart Stick Project">
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="text-align:center; padding:2rem; opacity:.7;">
+        © 2026 Omkar Gorule | All Rights Reserved
+    </footer>
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+</body>
+</html>

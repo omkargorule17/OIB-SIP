@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Omkar Gorule | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- AOS (Scroll Animations) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <h2 class="logo">Omkar<span style="color:#4da3ff;">.</span></h2>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <header class="hero">
+
+        <!-- Decorative blur shapes -->
+        <div class="hero-blur blur-1"></div>
+        <div class="hero-blur blur-2"></div>
+
+        <div class="hero-content" data-aos="fade-up">
+            <div class="profile-glow">
+                <img src="assets/omkar.jfif" class="profile-img floating" alt="Omkar Gorule">
+            </div>
+
+            <h1 class="gradient-text">Omkar Gorule</h1>
+
+            <p class="typing-text"></p>
+
+            <div class="hero-buttons">
+                <a href="projects.html" class="cta-btn">View Projects</a>
+                <a href="contact.html" class="cta-btn secondary">Contact Me</a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        © 2026 Omkar Gorule • Built with ❤️ & Code
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        AOS.init({ duration: 1000, once: true });
+
+        new Typed('.typing-text', {
+            strings: [
+                "Java Programmer",
+                "Web Developer",
+                "GenAI & Agentic AI Enthusiast",
+                "Aspiring Software Developer"
+            ],
+            typeSpeed: 80,
+            backSpeed: 50,
+            backDelay: 1200,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
